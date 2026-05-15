@@ -1,16 +1,73 @@
-# React + Vite
+# TaskSync - Student Task Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskSync is a MERN stack task management application developed for internship assignment purposes.
 
-Currently, two official plugins are available:
+The application allows users to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add tasks
+- View tasks
+- Edit tasks
+- Delete tasks
+- Search tasks
+- Filter tasks
+- View analytics dashboard
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+# Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend:
+- React
+- Tailwind CSS
+- Axios
+
+Backend:
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+
+
+
+# Features
+
+Add Task  
+Edit Task  
+Delete Task  
+Search Tasks  
+Filter Tasks  
+Dashboard Analytics  
+Responsive UI  
+Loading State  
+Empty State   
+
+---
+
+# Folder Structure
+
+TaskSync/
+│
+├── client/
+├── server/
+└── README.md
+
+---
+
+# Environment Variables
+
+Create a `.env` file inside the `server` folder.
+
+Example:
+
+MONGO_URI=your_mongodb_connection_string
+
+PORT=5000
+
+---
+
+# Installation Steps
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/Ramchandra207/TaskSync-App-.git
